@@ -1,0 +1,109 @@
+body,
+button {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif, Helvetica, sans-serif;
+  color: #266087;
+  background-color: #f2eacc;
+  margin: 0;
+}
+
+.header {
+  background-color: #e5de88;
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+}
+.header__title {
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 3.75rem;
+  margin: 0;
+  padding: 2rem 1rem 0 2rem;
+}
+.header__credit {
+  color: white;
+  font-size: x-large;
+  width: 18%;
+  text-align: center;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero__text {
+  text-align: center;
+  font-size: 1.875rem;
+  font-style: italic;
+}
+.hero__img {
+  width: 50%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.hero__bubble {
+  background-color: rgba(173, 48, 235, 0.23);
+  padding: 1rem 6rem 1rem 6rem;
+  border-radius: 1.875rem;
+  font-size: 1.25rem;
+}
+.hero__bubble--left {
+  display: inline;
+  margin-left: 12rem;
+}
+.hero__bubble--right {
+  display: inline;
+  float: right;
+  margin-right: 12rem;
+}
+
+.section {
+  text-align: center;
+  display: block;
+  padding-bottom: 2rem;
+}
+.section__options {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(173, 48, 235, 0.23);
+  width: 70%;
+  border-radius: 30px;
+  padding: 2rem;
+}
+.section__img-container {
+  background-color: #e5de88;
+  width: 80%;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  padding: 2rem 0rem 2rem 0rem;
+}
+.section__img {
+  border-radius: 1rem;
+}
+
+button {
+  border-radius: 30px;
+  background-color: white;
+  border-style: none;
+  font-size: 24px;
+  padding: 0.5rem 4rem 0.5rem 4rem;
+  margin: 0.5rem 1rem 1rem 1rem;
+  box-shadow: 2px 2px 4px black;
+  width: 45%;
+}
+
+button:hover {
+  transform: rotate(10deg);
+  color: black;
+}/*# sourceMappingURL=styles.css.map */
